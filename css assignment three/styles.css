@@ -1,0 +1,63 @@
+.card {
+  background-color: white;
+  width: 300px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.bubble {
+  background-color: #8ef7a8;
+  color: black;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+
+  padding: 5px 10px;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+body {
+  background-color: #29087c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.watchimage {
+  background: #e8e8e8;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.watchimage img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.content {
+  padding: 15px;
+}
+
+h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+h2 span {
+  font-size: 14px;
+  color: gray;
+}
+
+p {
+  font-size: 14px;
+  background-color: #8ef7a8;
+  line-height: 1.5;
+}
